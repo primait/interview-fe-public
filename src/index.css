@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header {
+  padding: 0 40px;
+  margin: 0;
+}
+
+.policy-list {
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  align-items: start;
+  column-gap: 40px;
+}
+
+.policy-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 8px;
+}
+.policy-list li {
+  background: rgba(0, 0, 0, 0.08);
+  padding: 8px 8px 8px 12px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.policy-list li strong {
+  padding: 4px;
+  background: yellow;
+}
+
+.policy-list li button {
+  margin-left: auto;
+  color: rgb(131 52 194);
+  background: white;
+  font-weight: 500;
+  border: 0;
+  line-height: 40px;
+  font-family: inherit;
+  display: grid;
+  line-height: 2.2;
+  padding: 0 12px;
+}
+
+.policy-list li button:hover {
+  background: rgb(131 52 194);
+  color: white;
+}
+
+.policy-search {
+  display: grid;
+  position: sticky;
+  top: 0;
+  gap: 8px;
+  background: white;
+  padding: 15px 0;
+}
+.policy-search input {
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  position: sticky;
+  top: 40px;
+  border: 2px solid gray;
+  padding: 0 40px;
+}
+
+aside dl {
+  display: grid;
+  row-gap: 8px;
+}
+
+aside dl dt {
+  color: rgb(131 52 194);
+}
