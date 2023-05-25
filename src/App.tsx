@@ -2,11 +2,11 @@ import { PolicySearch } from "./components/PolicySearch";
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>Prima</h1>
+    <div className="container">
+      <header className="header">
+        <h1>Prima Front End Interview</h1>
       </header>
-      <main className="policy-list">
+      <main>
         <PolicySearch />
       </main>
     </div>
