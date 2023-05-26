@@ -1,7 +1,7 @@
 # Prima Frontend Pairing exercise
 
 Thank you sharing for your interest in [Prima Engineering](https://inside.helloprima.com/). This repo contains an exercise we would like you to do with us in our pairing session.
-We would like to proceed with a 60 - 75 minutes session where you will be talking with our engineers and doing pair programming. You will play the role of driver (sharing your screen and coding) while the Prima engineer(s) will be the navigator(s).
+We would like to proceed with a session where you will be talking with our engineers and doing pair programming, this may take up to 2 hours. You will play the role of driver (sharing your screen and coding) while the Prima engineer(s) will be the navigator(s).
 
 The coding exercise allows us to assess your approach to solving a problem, what you prioritise, how you communicate your thinking and how you respond to any suggestions or advice from our engineers. In addition to the coding we will ask you some questions you don't need to implement.
 
