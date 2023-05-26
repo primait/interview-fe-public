@@ -65,6 +65,24 @@ describe("policy list item", () => {
   });
 });
 
+describe("dialog", () => {
+  test("customer name", async () => {
+    render(<App />);
+    const searchInput = screen.getByLabelText(/search policies/i);
+    await userEvent.type(searchInput, "A");
+
+    const list = screen.getByRole("list");
+    const firstItem = within(list).getAllByRole("listitem")[0];
+    const openFirstItem = within(firstItem).getByRole("button", {
+      name: /show details/i,
+    });
+    await userEvent.click(openFirstItem);
+
+    const customerName = await screen.findByText(/Angel Murazik/i);
+    expect(customerName).toBeVisible();
+  });
+});
+
 test("filters the results", async () => {
   render(<App />);
   const searchInput = screen.getByLabelText(/search policies/i);
