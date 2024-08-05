@@ -5,7 +5,7 @@ We would like to proceed with a session where you will be talking with our engin
 
 The coding exercise allows us to assess your approach to solving a problem, what you prioritise, how you communicate your thinking and how you respond to any suggestions or advice from our engineers. In addition to the coding we will ask you some questions you don't need to implement.
 
-Clone this repo to prepare your working environment and familiarise yourself with the structure of the application. *We will be sharing the problem statement with you at the pairing session*.
+Clone this repo to prepare your working environment and familiarise yourself with the structure of the application. _We will be sharing the problem statement with you at the pairing session_.
 
 Should you have any questions, write to our talent partner which will get the question to the engineering team.
 
@@ -22,9 +22,9 @@ This repo is a stub of a screen for our customer service agents to search for po
 
 Install dependencies ⏳⏳⏳.
 
-### `yarn start`
+### `yarn dev`
 
-Runs the app in the development mode on [http://localhost:3000](http://localhost:3000).
+Runs the app in the development mode on [http://localhost:5173](http://localhost:5173).
 
 ### `yarn test`
 
